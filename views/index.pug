@@ -1,0 +1,24 @@
+//- index.pug
+doctype html
+html
+    head
+        title surakSA
+        style
+          include ../public/css/style.css
+    body
+     div#search_bar
+      form
+        input(type='text' placeholder='Search for places')
+        div#logo
+            img.img(src='https://img.icons8.com/offices/40/000000/menu.png')
+            h3 #[a(href = "/") surakSA]
+      nav.navbar
+       ul
+         div#nav-list
+          li #[a(href = "/") Home]
+          li #[a(href = "/") Profile]
+          li #[a(href = "/") Ask For Help!]
+          li #[a(href = "/") Contact]
+
+    script
+     include ../public/js/script.js

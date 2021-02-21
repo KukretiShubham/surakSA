@@ -1,0 +1,5 @@
+
+ MONGO_URI = mongodb+srv://admin:admin@cluster0.fqzrs.mongodb.net/lat_long?retryWrites=true&w=majority&ssl=true
+GOOGLE_CLIENT_ID = 935150072857-316p7dqdstaei0p7bacd0mvcohedcqjv.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET = Oy_N3jwAi2UIbSzdAmK9BMpB
+CALLBACK_URL = http://localhost:3000/auth/google/callback

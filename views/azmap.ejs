@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>maps</title>
+
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta http-equiv="x-ua-compatible" content="IE=Edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="This tutorial shows how to create an interactive search experience."
+    />
+    <meta
+      name="keywords"
+      content="Microsoft maps, map, gis, API, SDK, services, module, tutorials, search, point of interest, POI"
+    />
+    <meta name="author" content="Microsoft Azure Maps" />
+
+    <!-- Add references to the Azure Maps Map control JavaScript and CSS files. -->
+    <link
+      rel="stylesheet"
+      href="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.css"
+      type="text/css"
+    />
+    <script src="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.js"></script>
+
+    <!-- Add a reference to the Azure Maps Services Module JavaScript file. -->
+    <script src="https://atlas.microsoft.com/sdk/javascript/service/2/atlas-service.min.js"></script>
+  </head>
+  <link rel="stylesheet" href="css/azmap.css" />
+  <body onload="GetMap()">
+    <script src="js/azmap.js"></script>
+    <div id="myMap"></div>
+
+    <div id="search">
+      <div class="search-input-box">
+        <div class="search-input-group">
+          <div class="search-icon" type="button"></div>
+          <input id="search-input" type="text" placeholder="Search" />
+        </div>
+      </div>
+      <ul id="results-panel"></ul>
+    </div>
+  </body>
+</html>

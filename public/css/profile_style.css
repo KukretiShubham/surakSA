@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+body{
+  font-family: "Quicksand", sans-serif;
+}
+
+fieldset{
+    border: 1px darkgray solid;
+    box-shadow: 2px 2px 15px #b7b3b3b5;
+    position: relative;
+    /* height:80vh; */
+}
+
+.profile-form{
+  background-image: url("../img/pexels-hannah-nelson-1065081.jpg");
+  /* background: url("../img/travel-2650303_1280.jpg") no-repeat cover no-repeat; */
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  }
+  .profile {
+    top: 1rem;
+    
+    background-color: #f6f5f5;
+  }
+  
+input[type="text"],
+select {
+  width: 15.6rem;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+  .profile-title{
+    color:rgb(17, 16, 16);
+    padding:3vh 0;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+
+  }
+  
+  .avatar-wrapper{
+      position: relative;
+      height: 150px;
+      width: 150px;
+      margin: 50px auto;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow: 1px 1px 15px -5px black;
+    transition: all .3s ease;
+  }
+  .profile-pic {
+    height: 100%;
+    width: 100%;
+    transition: all .3s ease;
+  }
+  
+  .profile-label{
+    color: #276678;
+    font-weight: 700;
+    font-size: 20px;
+    padding-right: 20px;
+  }

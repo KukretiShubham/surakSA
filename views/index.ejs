@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>surakSA</title>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta http-equiv="x-ua-compatible" content="IE=Edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="This sample shows how to continuously get the users position information from the browser by using the HTML5 geolocation API and update it on a map."
+    />
+    <meta
+      name="keywords"
+      content="Microsoft maps, map, gis, API, SDK, geolocation, user, location, position, tracking, gps, gps tracking"
+    />
+    <meta name="author" content="Microsoft Azure Maps" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.css"
+      type="text/css"
+    />
+    <script src="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.js"></script>
+
+    <!-- Add a reference to the Azure Maps Services Module JavaScript file. -->
+    <script src="https://atlas.microsoft.com/sdk/javascript/service/2/atlas-service.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="css/azmap.css" /> -->
+  </head>
+  <body onload="GetMap()">
+    <div id="myMap"></div>
+    <div class="geomarks">
+      <input
+        type="image"
+        src="./img/geotag.webp"
+        width="50"
+        height="45"
+        class="geoMark1"
+        value=""
+        onclick="startTracking()"
+      />
+      <!-- <i
+        class="fas fa-map-marker"
+        style="height: 25px"
+        onclick="startTracking()"
+      ></i> -->
+      <input
+        type="image"
+        value=""
+        onclick="stopTracking()"
+        src="./img/turnoff-location-780739.png"
+        width="40"
+        height="40"
+        class="geoMark2"
+      />
+    </div>
+
+    <fieldset
+      style="width: calc(100% - 30px); min-width: 290px; margin-top: 10px"
+    >
+      <legend><h1 style="font-size: 16px">Know your location</h1></legend>
+      we are tracking
+    </fieldset>
+    <div id="search_bar">
+      <form>
+        <!-- <input type="text" placeholder="Search for places" /> -->
+        <div id="logo">
+          <img
+            class="img"
+            src="https://img.icons8.com/offices/40/000000/menu.png"
+          />
+          <h3>
+            <a href="/"
+              >surakSA <img class="img_logo" src="img/logo.png" alt="logo"
+            /></a>
+          </h3>
+        </div>
+        <nav class="navbar">
+          <ul>
+            <div id="nav-list">
+              <li><a href="/">Home</a></li>
+              <li><a href="/profile">Profile</a></li>
+              <li><a href="/">Ask For Help!</a></li>
+              <li><a href="/">Contact</a></li>
+              <li><a href="/agora">SOS</a></li>
+              <li><a href="/">Logout</a></li>
+            </div>
+          </ul>
+        </nav>
+      </form>
+    </div>
+    <div id="search">
+      <div class="search-input-box">
+        <div class="search-input-group">
+          <div class="search-icon" type="button"></div>
+          <input id="search-input" type="text" placeholder="Search" />
+        </div>
+      </div>
+      <ul id="results-panel"></ul>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/azmap.js"></script>
+  </body>
+</html>

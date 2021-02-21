@@ -1,0 +1,34 @@
+{
+  "name": "hackathon",
+  "version": "1.0.0",
+  "description": "app for safety",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "team surakSA",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^3.2.0",
+    "cookie-session": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.11.14",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "pug": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nitesh2905/Hackathon-surakSA.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nitesh2905/Hackathon-surakSA/issues"
+  },
+  "homepage": "https://github.com/Nitesh2905/Hackathon-surakSA#readme"
+}
