@@ -20,7 +20,9 @@ git clone https://github.com/KukretiShubham/surakSA.git
 ```bash 
 npm install  
 ```
-5. Start the application 
+5. Create your own environment variables for .env file
+
+6. Start the application 
 ```bash 
 nodemon app 
 ```
