@@ -1,5 +1,8 @@
-# To conributed follow the following steps & make sure all the contribution follow ![code of conduct](https://github.com/KukretiShubham/surakSA/blob/main/CODE_OF_CONDUCT.md)
+# To conributed follow the following steps 
+
 ## Set up Project locally
+
+All the contribution or PR are requested to be made according to [Code of Conduct](https://github.com/KukretiShubham/surakSA/blob/main/CODE_OF_CONDUCT.md)
 
 1. Clone the github repo 
 ```bash 
