@@ -9,3 +9,8 @@ updates:
     directory: "/surakSA/package.json" # Location of package manifests
     schedule:
       interval: "daily"
+
+  - package-ecosystem: "npm" 
+    directory: "/surakSA/package-lock.json" # Location of package manifests
+    schedule:
+      interval: "daily"
