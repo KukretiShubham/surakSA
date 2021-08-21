@@ -21,7 +21,7 @@
     "nodemon": "^2.0.12",
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0",
-    "pug": "^3.0.0"
+    "pug": "^3.0.2"
   },
   "repository": {
     "type": "git",
