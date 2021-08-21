@@ -6,11 +6,11 @@
 version: 2
 updates:
   - package-ecosystem: "npm" 
-    directory: "\package.json" # Location of package manifests
+    directory: "surakSA/package.json" # Location of package manifests
     schedule:
       interval: "daily"
 
   - package-ecosystem: "npm" 
-    directory: "\package-lock.json" # Location of package manifests
+    directory: "surakSApackage-lock.json" # Location of package manifests
     schedule:
       interval: "daily"
