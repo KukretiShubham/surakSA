@@ -9,7 +9,7 @@
   "author": "team surakSA",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.1",
+    "body-parser": "^1.20.2",
     "connect-mongo": "^4.6.0",
     "cookie-session": "^2.0.0",
     "dotenv": "^16.0.3",
